@@ -38,3 +38,9 @@ project?_
 
 _Looking over your responses to the previous questions, what would you consider to be an
 "A-" for your project? What would you consider to be an "A"?_
+
+A-: Something that immediately came to mind when considering A- work would be well documented idea evolution. The odds that I stick to my original project plan without fail seems verly slim to me, I can already see myself making unforseen changes. Whether I come up with a new feature that I belive would make my DSL more useful or I decide to abandon an idea because I realize it is outside the scope of this project, if these ideas are well documented it will make it clear to see what I got out of this project and how I grew as a coder. 
+
+A:
+
+
