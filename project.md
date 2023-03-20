@@ -5,7 +5,7 @@
 This section describes who the project would serve and why a language might be a
 good way to meet their needs.
 
-  This project will serve a
+  This project will serve people who create digital monthly calanders and want make them more easily. My motivation to take on this project stems from the idea of professors and students being using my DSL together. I imagine professors giving a text file that contains all important due dates for their class to their students written in my language. Since the text file will be written in my language, it can then be able to be passed through an application that reads the file and adds the items to a calander. This would allow for students to easily create a visual represnetation for all assignments that they have due over the course of the semester, instead of having to create their own manually or refering to a calender created by the professor on the class website or syllabus.  
 
 ### What's the need?
 
@@ -18,7 +18,8 @@ them?_
   - Reoccurance: The user can specify if they want the item to reoccur my week, month, etc.
   - Color: the user can easily manipulate the color of the item by spesifying it in the input
   - Bold/underline/italicizate
-  - 
+
+
 
 ### Why a language?
 
