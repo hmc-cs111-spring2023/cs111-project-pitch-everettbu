@@ -5,11 +5,20 @@
 This section describes who the project would serve and why a language might be a
 good way to meet their needs.
 
+  This project will serve a
+
 ### What's the need?
 
 _What need is met by your idea? Who are you helping? What is that person's
 experience like now? What would their experience be like if you could help
 them?_
+
+  My idea will meet the needs of students and anyone who creates a digital calender on their computer. As a student, at the beggining of each semester I go through the syllabuses for each of my classes and create a calaender that contains due dates for all of my upcoming assignments. Since I learn and remember things visually, I like to create a monthly where I can see everything at once. Thus far, I have manually created a calender in excel for each semester I have been in college. This process takes upwards of two hours which involves setting the dates for each school week, scraping each syllabus for assignment due dates,  determining what is worthy of putting on my calender (some professors make this easier/more clear than others as they clearly outline what is due on their syllabus), and color coding assignments by class. 
+  If I am able to help myself, and others who face this problem, one would be able to create a long-term calander by first intilatilizing a desired length for their calender and then by passing in a file with items they want to add. What makes my DSL unique and helpful is that it will allow users to easily  add details when inputing their items instead of altering them manually afterwards. These include:
+  - Reoccurance: The user can specify if they want the item to reoccur my week, month, etc.
+  - Color: the user can easily manipulate the color of the item by spesifying it in the input
+  - Bold/underline/italicizate
+  - 
 
 ### Why a language?
 
@@ -22,6 +31,8 @@ _What excites you about this idea? How did you come up with it?_
 ### Domain
 
 _Describe the project's domain in five words._
+
+Easy full semester time management
 
 ### Interface (syntax)
 
