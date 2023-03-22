@@ -26,7 +26,7 @@ I will likely write two DSLs: one that handles entering events, and another that
 
 _Why is a DSL appropriate for your user(s)? How does it address the need?_
 
-Since my domain is limited to creating a calander, a DSL is appropriate as it will allow for me to create a language of text inputs that can be translated into a visual output of a calender. This will be a great oppertunity for me to practice writing a DSL as I will need to determine how I want inputs to be structured and what types of parameters the inputs can include. Its addresses the need because it will allow for users to create a calender using a text input which will hopefully save many people time.  
+Since my domain is limited to creating a calander, a DSL is appropriate as it will allow for me to create a language of text inputs that can be translated into a visual output of a calender. This will be a great oppertunity for me to practice writing a DSL as I will need to determine how I want inputs to be structured and what types of parameters the inputs can include. Its addresses the need because it will allow for users to create a calender based off text input which will hopefully save many people time. My DSL will hopefully serve as a useful tool to automate the tedious process of creating an online calender one element at a time. The domain is niche yet widely used which is why I belive that a DSL is approprate and needed.
 
 ### Why you?
 
