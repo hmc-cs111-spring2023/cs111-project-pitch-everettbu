@@ -17,18 +17,22 @@ My idea will meet the needs of students and anyone who creates a digital calende
   
 If I am able to help myself, and others who face this problem, one would be able to create a long-term calander by first intilatilizing a desired length for their calender and then by passing in a file with items they want to add. What makes my DSL unique and helpful is that it will allow users to easily  add details when inputing their items instead of altering them manually afterwards. These include:
   - Reoccurance: The user can specify if they want the item to reoccur my week, month, etc.
-  - Color: the user can easily manipulate the color of the item by spesifying it in the input
+  - Color: the user can easily manipulate the color of the item by specifying it in the input
   - Bold/underline/italicizate
-
+I will likely write two DSLs: one that handles entering events, and another that works with the look and feel of the program
 
 
 ### Why a language?
 
 _Why is a DSL appropriate for your user(s)? How does it address the need?_
 
+Since my domain is limited to creating a calander, a DSL is appropriate as it will allow for me to create a language of text inputs that can be translated into a visual output of a calender. This will be a great oppertunity for me to practice writing a DSL as I will need to determine how I want inputs to be structured and what types of parameters the inputs can include. Its addresses the need because it will allow for users to create a calender using a text input which will hopefully save many people time.  
+
 ### Why you?
 
 _What excites you about this idea? How did you come up with it?_
+
+I'm excited by this idea because it is something that I would actually use and I know other people who would benefit from it too. I came up with the idea after interviewing a CMC environmental science major, who told me about how they really rely on their computer for scheduling their work. After thinking about what they said, I thought about how I interact with my computer in the same way and realized that I had a few pain points in this area. Currently, as a Google calender user, I have to manually input each event into the calender which can become tedious when I have multiple similar events (study times) to enter at once. Also, Google calender doesnt have a great full month view which I like to use. I am excited to potenitally create a solution to these pain points as I will actually use my project if it is built well. I find it extremely motivating to work on something that I will actually use. 
 
 ### Domain
 
