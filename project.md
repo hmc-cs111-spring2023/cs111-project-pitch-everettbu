@@ -45,16 +45,24 @@ Easy full semester time management
 _How might the user interact with the language? What does programming look
 like? Why is this the right way to interact with the problem domain?_
 
+The user would interact with the language by initally creating a calender by setting the start and end dates. Then they would have the ability to program events by specifying day they want to edit and choosing to either add, remove or alter items that they want to schedule. The calander would be viewed in months (thats how I view my time management) and would help students visualize and map out thier semester. Programming would look like users editing, adding and checking things off their calander. The right way to interact with the probelem domain would be to input items into the calender as soon as one knows about them, and cross them off once they are complete. Also, I want the user to be able to cross of entire days once they have passed or if there is a holiday ahead that requires no work. My DSL will hopfully be so easy to use that these tasks will nake little time to do.
+
 ### Operation (semantics)
 
 _What might happen when a program runs? How does a program interact with the
 user? What kinds of errors might occur, and how might they be communicated to
 the user?_
 
+When the proram runs it displays a calender with the users inputed items. The program interacts with the user by prompting them with the option to  to add, move, delete, or check off an item to their calender. Errors might occur if there are two of the same item on the same day or the day is in the past. They will be communicated to the user with a message after they input the request. In addition to that errors might occur if things such as dates, event types, or customization requests aren't entered with the correct syntax. These errors will be communicated to the user by displaying an error message and pointing out where the program got confused.
+
 ### Expressiveness
 
 _What should be easy to do in this language? What should be possible, but
 difficult? What should be impossible or very difficult?_
+
+It should be easy to add/remove events, customize the text in the calender, and block off days specified by the user.
+I think it will be possible but harder to create the calender interface and sync it to other services such as excel or google calender.
+It will likely be very difficult to add a handler for reoccuring items but it would be a feature that would make my DSL unique and particularly useful.
 
 ### Related work
 
@@ -62,6 +70,13 @@ _Are there any other DSLs in this domain? If not, describe how you know there
 aren't and conjecture why not. If so, describe them and provide links. How well
 do they address the need? Are there any particularly admirable qualities of the
 language? Are there parts of the language you think could be improved?_
+
+There are quite a few DSLs in the calender domain, here are a few:
+https://wiki.tcl-lang.org/page/Gregor%3A+A+DSL+for+building+semester+calendars
+https://github.com/shannonjanehogan/google-calendar-dsl
+https://github.com/JettChenT/timeblok
+
+I think that these DSLs adaquitly address the need for everyone who created them and provide a way to auto-populate a calender from text which is my end goal. I found the first link particularly relevant to my project as it wa created by a professor at George Washington University for semester long scheduling. This idea direcly reflects my desire to make my DSL targeted towards students. Also, the other two github links seemed like personal projects that people created to create a calender using their desired syntax. These projects will be great resourses for me to look through and gain inporation. However, I think that it is important for me to write my own, even though others exist, because I will be the primary user and I want the syntax to meet my specific wants and needs. Also, I am hoping to have my DSL auto-populate a google sheet which the existing calenders do not.
 
 ## The Project
 
@@ -75,11 +90,17 @@ making language design decisions), as opposed to "systems" aspects of the
 project (e.g., implementing a complicated semantics that doesn't require a lot
 of language design)?_
 
+My inital thought was I would say %50/%50 but after further thought I belive it to be %75/%25. This is based on the fact that I will be writing two DSLs which should give me pleanty of oppertunity to directly engage in language design. However, this is taylored to the scope of this class assignment, if I wanted to I could add a lot of features that would require me to work with the systems aspects. 
+
 ### Scope
 
 _How big an idea is this? How ambitious is this project?_
+
+I belive that this idea is very doable as a project over the remaining time that we have this semester. There is a chance that this project takes me slightly longer than I am currenlty expecting it to take but this is ok. Since I will have to start by writing the intial DSLs for my program, and then get the application up and running, I will be able to use this class as a resource to write my DSLs. After that, I can finish the systems aspects of the project on my own time or during the end of the semester if time permits.
 
 ### Benefits and drawbacks
 
 _Why might this be a good idea for a project? Why might this not be a good idea
 project?_
+
+This is a good idea for a project because it is something I would actually use, and often. It would allow me to create my own DSL and create a product I can hopefully share with others too. It might not be a good idea because it will require me to work a decent amount on the systems side of things which is not the main focus of this class. Also, many people are comfortable and used to using exisitng scheduling systems. However, I belive the pros of this project far outweigh the cons as I am passionate about working on it, I get the chance to write not one but two DSLs, and it would allow me to practice writing a functional application which is something I've been wanting to gain more experience doing.
