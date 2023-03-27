@@ -33,10 +33,15 @@ Before I go into a rough outline of a timeline I plan to follow for this project
 I also know that for me to maximize my efficiency when working on this project I should thoroughly plan everything out so that I can foresee any roadblocks or challenges ahead of time. This will help me make sure that I am attacking my project in a way that allows me to achieve the greatest possible end result, and it also allows me to get an idea of what I need to do and how long everything will take me to complete.
 
 Here's a rough outline of project milestones by week:
+
 Week of 3/26: Create a detailed outline of the entire project including what libraries, tools, and files need to be used/created 
+
 Week of 4/2: Write DSL #1, user --> icalendar
+
 Week of 4/9: Write DSL #2, icalendar --> external app
+
 Week of 4/16: Get external application running
+
 Week of 4/23: Wrap up any loose ends
 
 ## Critique plan
